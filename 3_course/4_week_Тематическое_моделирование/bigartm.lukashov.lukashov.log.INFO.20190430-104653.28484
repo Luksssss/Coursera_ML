@@ -1,0 +1,27 @@
+Log file created at: 2019/04/30 10:46:53
+Running on machine: lukashov
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0430 10:46:53.653308 28484 c_interface.cc:127] Logging enabled to .
+I0430 10:46:53.653453 28484 c_interface.cc:128] BigARTM version: v0.10.0
+I0430 10:46:53.653473 28484 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0430 10:46:53.653488 28484 c_interface.cc:274] Creating MasterModel (id=1)...
+I0430 10:46:53.654114 28484 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 4
+I0430 10:46:53.779891 28484 c_interface.cc:375] Pass 00d2900c-4e1c-426c-952a-136acfd98f94 to MN4artm4core15MasterComponentEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE
+I0430 10:46:53.779994 28484 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=00d2900c-4e1c-426c-952a-136acfd98f94, data_path=school_batches, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I0430 10:46:53.780050 28484 dictionary_operations.cc:265] Found 5 batches in 'school_batches' folder
+I0430 10:46:53.811971 28484 dictionary_operations.cc:331] Find 16099 unique tokens in 476 items
+I0430 10:46:53.827052 28484 dictionary_operations.cc:611] Dictionary name='00d2900c-4e1c-426c-952a-136acfd98f94' contains entries: text:16099; 
+I0430 10:46:58.879396 28484 c_interface.cc:375] Pass 00d2900c-4e1c-426c-952a-136acfd98f94 to MN4artm4core15MasterComponentEFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE
+I0430 10:46:58.886929 28484 c_interface.cc:339] Disposing MasterComponent (id=1)...
+I0430 10:47:01.193132 28484 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=10, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0430 10:47:01.193193 28484 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0430 10:47:01.193303 28484 c_interface.cc:274] Creating MasterModel (id=2)...
+I0430 10:47:01.193356 28607 processor.cc:58] Processor thread started
+I0430 10:47:01.193967 28610 processor.cc:58] Processor thread started
+I0430 10:47:01.194651 28608 processor.cc:58] Processor thread started
+I0430 10:47:01.197618 28609 processor.cc:58] Processor thread started
+I0430 10:47:01.214272 28607 processor.cc:74] No data in processing queue, waiting...
+I0430 10:47:01.215364 28608 processor.cc:74] No data in processing queue, waiting...
+I0430 10:47:01.215375 28610 processor.cc:74] No data in processing queue, waiting...
+I0430 10:47:01.222559 28609 processor.cc:74] No data in processing queue, waiting...
+I0430 10:48:27.069489 28484 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel

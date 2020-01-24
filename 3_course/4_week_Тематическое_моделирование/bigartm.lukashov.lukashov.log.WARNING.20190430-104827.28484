@@ -1,0 +1,8 @@
+Log file created at: 2019/04/30 10:48:27
+Running on machine: lukashov
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0430 10:48:27.160641 28738 helpers.cc:221] File already exists: school_batches/aaaaaa.batch
+W0430 10:48:27.168138 28741 helpers.cc:221] File already exists: school_batches/aaaaab.batch
+W0430 10:48:27.176414 28740 helpers.cc:221] File already exists: school_batches/aaaaad.batch
+W0430 10:48:27.185711 28739 helpers.cc:221] File already exists: school_batches/aaaaac.batch
+W0430 10:48:27.205801 28738 helpers.cc:221] File already exists: school_batches/aaaaae.batch
